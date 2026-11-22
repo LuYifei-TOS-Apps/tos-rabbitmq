@@ -1,0 +1,33 @@
+{
+  "id": "rabbitmq",
+  "recipe": "rabbitmq-v1",
+  "version": "4.4.1.1",
+  "publisher": "Lu Yifei",
+  "help": "https://github.com/LuYifei-TOS-Apps/tos-rabbitmq#readme",
+  "official": "https://www.rabbitmq.com/",
+  "platforms": ["x86_64", "aarch64"],
+  "category": ["Utilities"],
+  "languages": {
+    "en-us": {
+      "name": "RabbitMQ",
+      "auth": "RabbitMQ Team",
+      "descript": "Run a message broker on your NAS and manage queues, exchanges and users through the web console.",
+      "important": "Use TCP port 15673 for AMQP and port 15672 for the management console. Follow the guide to retrieve the generated administrator password.",
+      "release_note": "Initial TOS release based on RabbitMQ 4.4.1 with the management plugin."
+    },
+    "zh-cn": {
+      "name": "RabbitMQ",
+      "auth": "RabbitMQ Team",
+      "descript": "在 NAS 上运行消息代理，并通过网页管理控制台管理队列、交换器和用户。",
+      "important": "管理控制台使用 15672 端口，AMQP 使用 TCP 15673 端口。请按使用说明读取首次启动生成的管理口令。",
+      "release_note": "首个 TOS 版本，基于 RabbitMQ 4.4.1，内置管理插件。"
+    },
+    "zh-hk": {
+      "name": "RabbitMQ",
+      "auth": "RabbitMQ Team",
+      "descript": "在 NAS 上執行訊息代理，透過網頁管理控制台管理佇列、交換器及使用者。",
+      "important": "管理控制台使用 15672 連接埠，AMQP 使用 TCP 15673 連接埠。請依照使用說明讀取首次啟動產生的管理密碼。",
+      "release_note": "首個 TOS 版本，基於 RabbitMQ 4.4.1，內置管理外掛。"
+    }
+  }
+}
