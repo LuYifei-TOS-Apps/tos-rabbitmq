@@ -14,3 +14,5 @@
 `/var/lib/rabbitmq` 的应用数据目录保存节点状态、持久化消息和初始密码文件。采用固定节点名 `rabbit@rabbitmq`。要在重启后保留消息，请使用持久队列、持久消息和发布确认。备份前可导出拓扑定义，或停止应用后复制应用数据目录并限制副本的访问权限。[RabbitMQ 备份与恢复](https://www.rabbitmq.com/docs/backup)
 
 安装包与校验文件随 [GitHub Release](https://github.com/LuYifei-TOS-Apps/tos-rabbitmq/releases) 提供。RabbitMQ 遵循 [MPL 2.0](https://github.com/rabbitmq/rabbitmq-server/blob/v4.4.1/LICENSE)。
+
+[隐私政策 / Privacy policy](PRIVACY.md)
